@@ -11,16 +11,21 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-        <nav class="navbar fixed-top navbar-light bg-light navbar-expand-sm">
+        <nav class="navbar fixed-top navbar-dark navbar-expand-sm">
         <!--Create Navigation-->
                 <div class="container">
                 <!--Create container-->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                        <!-- Tạo button với nội dung được ẩn-->
                         <span class="navbar-toggler-icon"></span>
+                        <!-- Span khác div: Span chỉ một dòng trong một div còn div là một khối-->
                      </button>
                     <!-- Create hệ thống các nút trong thanh menu và symbol of Navigation khi màn hình nhỏ hơn size of sm -->
                     <a href="#" class="navbar-brand mr-auto">The name of Company</a>
@@ -28,23 +33,33 @@
                     <div class="collapse navbar-collapse" id="Navbar">
                     <!--Tạo một khối cho collapse navbar khi sử dụng với under size of sm-->
                             <ul class="navbar-nav mr-auto">
+                                <!--Khởi tạo navbar (xem lại ví dụ trong FILE -->
                                     <li class="nav-item active">
+                                        <!-- Khởi tạo thành phần item-->
                                         <a class="nav-link" href="#">
+                                            <!--Item phải đi kèm với link để tạo 1 thanh menu và có thể kích di chuyển đến một page khác-->
+                                            <span class="fa fa-home fa-lg"></span>
+                                             <!-- Với class = "fa fa-home là icon in document font awesome và fa-lg là tăng kích thước icon" -->
                                             Home
                                         </a>
                                     </li>
+                                    <!--Liệt kê các thành phần trong list-->
                                     <li class="nav-item">
                                          <a class="nav-link" href="./index.html.html">
+                                            <span class="fa fa-info fa-lg"></span>
                                             About
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">
+                                            <span class="fa fa-list fa-lg"></span>
                                             Menu
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">
+                                        <a class="nav-link" href="./contactus.html">
+                                            <span class="fa fa-address-card fa-lg"></span>
+                                            <!-- -->
                                             Contact     
                                          </a>
                                     </li>
@@ -141,19 +156,19 @@
 		              121, Clear Water Bay Road<br>
 		              Clear Water Bay, Kowloon<br>
 		              HONG KONG<br>
-		              Tel.: +852 1234 5678<br>
-		              Fax: +852 8765 4321<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
+		              <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+		              <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+		              <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a>
 		           </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
+                            <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                            <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                            <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
                     </div>
                 </div>
            </div>
