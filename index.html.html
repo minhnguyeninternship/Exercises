@@ -16,42 +16,42 @@
 
 <body>
         <nav class="navbar fixed-top navbar-light bg-light navbar-expand-sm">
-        <!--Create Navigation-->
-                <div class="container">
-                <!--Create container-->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                        <span class="navbar-toggler-icon"></span>
-                     </button>
-                    <!-- Create hệ thống các nút trong thanh menu và symbol of Navigation khi màn hình nhỏ hơn size of sm -->
-                    <a href="#" class="navbar-brand mr-auto">The name of Company</a>
-                    <!--Navbar-brand: Thường là tên các công ty, logo công ty, nằm bên trái thanh Navigation -->
-                    <div class="collapse navbar-collapse" id="Navbar">
-                    <!--Tạo một khối cho collapse navbar khi sử dụng với under size of sm-->
-                            <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">
-                                            Home
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                         <a class="nav-link" href="./index.html.html">
-                                            About
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">
-                                            Menu
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">
-                                            Contact     
-                                         </a>
-                                    </li>
-                                </ul>
-                    </div>
-                </div>
-              </nav>
+                <!--Create Navigation-->
+                        <div class="container">
+                        <!--Create container-->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                                <span class="navbar-toggler-icon"></span>
+                             </button>
+                            <!-- Create hệ thống các nút trong thanh menu và symbol of Navigation khi màn hình nhỏ hơn size of sm -->
+                            <a href="./index.html" class="navbar-brand mr-auto">The name of Company</a>
+                            <!--Navbar-brand: Thường là tên các công ty, logo công ty, nằm bên trái thanh Navigation -->
+                            <div class="collapse navbar-collapse" id="Navbar">
+                            <!--Tạo một khối cho collapse navbar khi sử dụng với under size of sm-->
+                                    <ul class="navbar-nav mr-auto">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="./index.html">
+                                                    Home
+                                                </a>
+                                            </li>
+                                            <li class="nav-item active">
+                                                 <a class="nav-link" href="./index.html.html">
+                                                    About
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    Menu
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    Contact     
+                                                 </a>
+                                            </li>
+                                        </ul>
+                            </div>
+                        </div>
+                      </nav>
 
     <header class="jumbotron">
         <div class="container">
@@ -67,8 +67,17 @@
     </header>
 
     <div class="container">
-        <div>
-            <div>
+        <div class="row">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item active">
+                    About us
+                </li>
+
+            </ol>
+            <div class="col-12">
                <h3>About Us</h3>
                <hr>
             </div>
@@ -129,8 +138,8 @@
                 <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="./index.html.html">About</a></li>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
